@@ -1,0 +1,44 @@
+Yuyu795800
+sitharam12@nakshatratech1.in
+
+
+
+Jenkins User ID: pramee
+pwd: Jenkins@123
+
+allow port 8080 in azure portal............................................
+steps
+open vm.....>click on networking....>click on inbound rule............>select 8080 port
+http://20.172.166.25:8080/
+
+if you want to see jenkins pwaaword
+
+ sudo cat /var/lib/jenkins/secrets/initialAdminPassword   goto this area
+f3c9411a06f3420d9d828a42e658e4e2       password
+
+if you want to see users got here
+cat /etc/passwd
+
+
+visudo: or sudo vi /etc/sudoers
+ go to visudo and do same like below
+# User privilege specification
+root    ALL=(ALL:ALL) ALL
+jenkins ALL=(ALL) NOPASSWD:ALL
+
+ goto bulid steps
+select execute build steps the execute below command
+
+   sudo apt-get install apache2 -y
+
+
+if you want to access this webpage
+allow port 80/http
+open any browser
+hit on your ipaddress
+
+
+
+email notification
+generated app password
+rhhkwlpccmpuspwm
